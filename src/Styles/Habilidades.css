@@ -1,0 +1,32 @@
+.habilidades {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.skill-form {
+  margin-bottom: 20px;
+}
+
+.skill-form input {
+  padding: 8px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.skill-form button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+}

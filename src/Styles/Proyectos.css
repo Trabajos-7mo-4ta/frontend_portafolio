@@ -1,0 +1,20 @@
+.proyectos {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.proj-form {
+  margin-bottom: 20px;
+}
+
+.proj-form input {
+  padding: 8px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.proj-form button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}

@@ -1,0 +1,25 @@
+.sobreMi {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.sobreMi h2{
+  margin: 0;
+}
+
+.sobreMi .contenedor{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.sobreMi .contenedor button{
+  width: fit-content;
+}
+
+.sobreMi textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  resize: none; /* evita que se expanda */
+}

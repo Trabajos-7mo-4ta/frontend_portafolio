@@ -1,0 +1,25 @@
+.experiencia {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.experiencia .contenedor{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.exp-form {
+  margin-bottom: 20px;
+}
+
+.exp-form input {
+  padding: 8px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.exp-form button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}

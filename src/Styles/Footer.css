@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;                  /* ocupa todo el ancho */
+  background-color: #222;       /* fondo oscuro */
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;           /* centra el contenido */
+  font-size: 14px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+}
