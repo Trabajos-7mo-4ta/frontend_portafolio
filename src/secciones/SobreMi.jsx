@@ -95,7 +95,7 @@ export default function SobreMi() {
           </>
         ) : (
           <>
-            <p>{contenido || "Sin información"}</p>
+            <p>{contenido || "Cargando contenido..."}</p>
             {admin && (
               <button onClick={() => setEditing(true)} className="admin-btn">
                 Editar
@@ -108,4 +108,5 @@ export default function SobreMi() {
   );
 
 }
+
 
