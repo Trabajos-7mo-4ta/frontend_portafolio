@@ -139,7 +139,7 @@ export default function Logros() {
                 </li>
               ))
             ) : (
-              <p>No hay logros aún</p>
+              <p>Cargando logros...</p>
             )}
           </ul>
 
@@ -183,4 +183,5 @@ export default function Logros() {
       )}
     </>
   );
+
 }
