@@ -57,7 +57,7 @@ export default function SobreMi() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ contenido: nuevoContenido }),
       });
-      setContenido(nuevoContenido || "Sin información");
+      setContenido(nuevoContenido || "Cargando contenido...");
       setEditing(false);
     } catch (err) {
       console.error(err);
@@ -95,7 +95,7 @@ export default function SobreMi() {
           </>
         ) : (
           <>
-            <p>{contenido || "Cargando contenido..."}</p>
+            <p>{contenido || "Sin información"}</p>
             {admin && (
               <button onClick={() => setEditing(true)} className="admin-btn">
                 Editar
@@ -108,3 +108,4 @@ export default function SobreMi() {
   );
 
 }
+
