@@ -140,7 +140,7 @@ export default function Habilidades() {
                 </li>
               ))
             ) : (
-              <p>No hay habilidades aún</p>
+              <p>Cargando habilidades...</p>
             )}
           </ul>
 
@@ -184,4 +184,5 @@ export default function Habilidades() {
       )}
     </>
   );
+
 }
